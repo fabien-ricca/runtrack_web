@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#project_container{
+    background-color: bisque;
+}
+
+#projet_data{
+    background-color: red;
+}
+
+#project_h1{
+    color: white;
+}
