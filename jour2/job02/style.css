@@ -1,0 +1,24 @@
+h1{
+    color:red;
+}
+
+#titre_2{
+    color: blue;
+}
+
+a[href^="https"]{
+    color: green;
+}
+
+.button{
+    border: none;
+    background-color: antiquewhite;
+    transition: 0.2s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: bisque;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
