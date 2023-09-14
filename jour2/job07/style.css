@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: var(--primary);
+}
+
+p{
+    color: var(--secondary);
+}
