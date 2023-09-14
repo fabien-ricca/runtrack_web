@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color:red;
+}
+
+#titre_2{
+    color: blue;
+}
+
+a[href^="https"]{
+    margin: 3em;
+    color: green;
+}
+
+.button{
+    width: 5em;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    background-color: antiquewhite;
+    transition: 0.2s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: bisque;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
