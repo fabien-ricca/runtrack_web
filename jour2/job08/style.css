@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.decorated-section::before {
+    content: "Début de la section";
+    display: block;
+    font-style: italic;
+    color: var(--primary);
+}
+
+.decorated-section::after {
+    content: "Fin de la section";
+    display: block;
+    font-style: italic;
+    color: var(--primary);
+}
